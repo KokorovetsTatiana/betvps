@@ -1,5 +1,14 @@
 a {
   text-decoration: none;
+  color: $primary-color;
+
+  transition-duration: 300ms;
+  @extend %transitionTF;
+}
+
+a:hover,
+a:focus {
+  color: $secondary-color;
 }
 
 ul,
