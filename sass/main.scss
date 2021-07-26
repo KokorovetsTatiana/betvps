@@ -1,8 +1,4 @@
-// @import "./base.scss/normalize";
-// @import "./utils/variables";
-// @import "./utils/breakpoints";
-// @import "./base.scss/base";
-
-ul {
-  list-style: none;
-}
+@import "./utils/variables";
+@import "./base.scss/normalize";
+@import "./utils/breakpoints";
+@import "./base.scss/base";

@@ -10,41 +10,45 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a class="logo"></a>
-            <nav>
-                <ul>
-                    <li><a>Купить VPS</a></li>
-                    <li><a>О продукте</a></li>
-                    <li><a>FAQ</a></li>
+            <nav class="navigation">
+                <a class="logo" href="#">
+                    <svg class="logo-svg" width="198px" height="60px">
+                        <use class="icon-logo" href="./images/icons/sprite.svg#icon-logo"></use>
+                    </svg>
+                </a>
+                <ul class="navigation-menu">
+                    <li class="nav-menu_item"><a>Купить VPS</a></li>
+                    <li class="nav-menu_item"><a>О продукте</a></li>
+                    <li class="nav-menu_item"><a>FAQ</a></li>
                 </ul>
-                <button>Тех. поддержка</button>
+                <button class="nav-btn">Тех. поддержка</button>
             </nav>
         </div>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <h1>лучшее сочетание</h1>
             <ul>
                 <li>
-                    <svg >
-                        <use ></use>
+                    <svg class="hero-svg" width="77px" height="80px">
+                        <use class="hero-icon" href="./images/icons/sprite.svg#icon-hero-anonim"></use>
                     </svg>
                     <p>анонимность</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="hero-svg" width="77px" height="80px">
+                        <use class="hero-icon" href="./images/icons/sprite.svg#icon-hero-safety"></use>
                     </svg>
                     <p>безопасность</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="hero-svg" width="77px" height="80px">
+                        <use class="hero-icon" href="./images/icons/sprite.svg#icon-hero-power"></use>
                     </svg>
                     <p>мощность</p>
                 </li>
@@ -52,108 +56,110 @@
             <p><span>VPS</span> - это виртуально созданный ПК с нужными вам конфигурациями. Это отличное решение для полной анонимности и получения необходимой мощности для решения различных задач.
             </p>
             <button>
-                <svg>
-                    <use></use>
+                <svg class="hero-btn" width="38px" height="38px">
+                    <use class="hero-btn-icon" href="./images/icons/sprite.svg#icon-btn-hero"></use>
                 </svg>
-                <p>Купить VPS</p>
+                <span>Купить VPS</span>
             </button>
         </section>
 
-        <section>
+        <section class="adv">
             <h2>Преимущества</h2>
             <ul>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-speed"></use>
                     </svg>
                     <h3>Скорость</h3>
                     <p>Интернет канал без ограничений. Быстрый отклик</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-soft"></use>
                     </svg>
                     <h3>Софт</h3>
                     <p>Предустановлены популярные программы, в том числе и бот/сканер Betting Со</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-windows"></use>
                     </svg>
                     <h3>Windows 10</h3>
                     <p>На всех решениях предустановлена сборка Windows 10</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-optimization"></use>
                     </svg>
                     <h3>Оптимизация под вилки</h3>
-                    <p>Стабильная работа бота и
-                    моментальная проставка
-                    плеч в сканере</p>
+                    <p>Стабильная работа бота и моментальная проставка плеч в сканере</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-price"></use>
                     </svg>
                     <h3>Оптимальная цена</h3>
                     <p>400грн. - 7 дней. Одно из самых лучших предложений на рынке</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="adv-svg" width="120px" height="120px">
+                        <use class="adv-icon" href="./images/icons/sprite.svg#icon-adv-unique"></use>
                     </svg>
                     <h3>Уникализация</h3>
                     <p>Каждая виртуальная машина уникальна</p>
                 </li>
             </ul>
         </section>
-        <section>
+
+        <section class="about">
             <h2>О продукте</h2>
             <p>VPS - это виртуально созданный ПК с нужными вам конфигурациями. Это отличное решение для полной анонимности и получения необходимой мощности для решения различных задач.
                 </p>
             <p>Изначально мы создавали VPS под свои личные нужды (использование собственного ПО), но увидев дефицит качественного сервиса VPS для профессионалов, мы решили предоставить его широкой аудитории.
                 </p>
             <h4>Наши главные правила для всех продуктов:</h4>
-            <ul>
+            <ul class="rules">
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="about-svg" width="100px" height="100px">
+                        <use class="about-btn-icon" href="./images/icons/sprite.svg#icon-about-support"></use>
                     </svg>
                     <p>Оперативная и адекватная поддержка</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="about-svg" width="100px" height="100px">
+                        <use class="about-btn-icon" href="./images/icons/sprite.svg#icon-about-devops"></use>
                     </svg>
                     <p>Опытные разработчики</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="about-svg" width="100px" height="100px">
+                        <use class="about-btn-icon" href="./images/icons/sprite.svg#icon-about-employee"></use>
                     </svg>
                     <p>Возможность сотрудничества</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="about-svg" width="100px" height="100px">
+                        <use class="about-btn-icon" href="./images/icons/sprite.svg#icon-about-dollar"></use>
                     </svg>
                     <p>Гибкая ценовая политика</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
+                    <svg class="about-svg" width="100px" height="100px">
+                        <use class="about-btn-icon" href="./images/icons/sprite.svg#icon-about-safety"></use>
                     </svg>
                     <p>Безопасность и анонимность</p>
                 </li>
             </ul>
         </section>
 
-        <section>
+        <section class="price">
             <h2>Стоимость и оплата</h2>
             <ul>
                 <li>
-                    <h3>VPS</h3>
+                    <svg class="price-svg" width="40px" height="40px">
+                        <use class="price-icon" href="./images/icons/sprite.svg#icon-price"></use>
+                    </svg>
+                    <span>VPS</span>
                     <ul>
                         <li>
                             <p>RAM</p>
@@ -178,10 +184,18 @@
                     </ul>
                     <p>7 дней</p>
                     <p>400 грн</p>
-                    <button></button>
+                    <button class="price-btn">
+                        <svg class="price-svg" width="25px" height="25px">
+                            <use class="price-icon" href="./images/icons/sprite.svg#icon-btn-price"></use>
+                        </svg>
+                        <p>Заказать</p>
+                    </button>
                 </li>
                 <li>
-                    <h3>VPS</h3>
+                    <svg class="price-svg" width="40px" height="40px">
+                        <use class="price-icon" href="./images/icons/sprite.svg#icon-price"></use>
+                    </svg>
+                    <span>VPS</span>
                     <ul>
                         <li>
                             <p>RAM</p>
@@ -206,10 +220,18 @@
                     </ul>
                     <p>14 дней</p>
                     <p>770 грн</p>
-                    <button></button>
+                    <button class="price-btn">
+                        <svg class="price-svg" width="25px" height="25px">
+                            <use class="price-icon" href="./images/icons/sprite.svg#icon-btn-price"></use>
+                        </svg>
+                        <p>Заказать</p>
+                    </button>
                 </li>
                 <li>
-                    <h3>VPS</h3>
+                    <svg class="price-svg" width="40px" height="40px">
+                        <use class="price-icon" href="./images/icons/sprite.svg#icon-price"></use>
+                    </svg>
+                    <span>VPS</span>
                     <ul>
                         <li>
                             <p>RAM</p>
@@ -234,9 +256,9 @@
                     </ul>
                     <p>30 дней</p>
                     <p>2700 грн</p>
-                    <button>
-                        <svg>
-                            <use></use>
+                    <button class="price-btn">
+                        <svg class="price-svg" width="25px" height="25px">
+                            <use class="price-icon" href="./images/icons/sprite.svg#icon-btn-price"></use>
                         </svg>
                         <p>Заказать</p>
                     </button>
@@ -244,7 +266,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="choise">
             <h2>Как мне выбрать сервер?</h2>
             <p>Зарегистрироваться на сайте и оплатить виртуальный компьютер.</p>
             <p>Далее подключиться к виртуальному компьютеру, то есть:</p>
@@ -267,10 +289,16 @@
                 <li>
                     <p>Задать свой пароль;</p>
                 </li>
-            </ul>
+            </ol>
+            <svg class="ask" width="167px" height="150px">
+                <use class="ask-icon" href="./images/icons/sprite.svg#icon-question"></use>
+            </svg>
+            <svg class="face" width="181px" height="175px">
+                <use class="face-icon" href="./images/icons/sprite.svg#icon-thinking-face"></use>
+            </svg>
         </section>
 
-        <section>
+        <section class="questions">
             <h2>Общие вопросы</h2>
             <ol>
                 <li>
@@ -287,19 +315,24 @@
             </ol>
         </section>
 
-        <section>
+        <section class="feedback">
             <h2>Остались вопросы?</h2>
             <p>Напишите нам на наш E-mail, и мы с радостью ответим на все ваши вопросы!</p>
             <button>
-                <svg>
-                    <use></use>
+                <svg class="feedback-btn" width="25px" height="19px">
+                    <use class="feedback-icon" href="./images/icons/sprite.svg#icon-btn-envelope"></use>
                 </svg>
                 <p>Написать</p>
             </button>
         </section>
     </main>
+
     <footer>
-        <a class="logo"></a>
+        <a class="logo" href="#">
+            <svg class="logo-svg" width="198px" height="60px">
+                <use class="icon-logo" href="./images/icons/sprite.svg#icon-logo"></use>
+            </svg>
+        </a>
         <p>© Все права защищены. All Rights Reserved. 2021 BetVPS</p>
     </footer>
 
